@@ -1,22 +1,15 @@
-# React + Vite
+# Card Memory Game
+## Vite.js, React.js, Javascript, HTML, CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In order to start this project, it was started with 
+>npx create-vite@latest
 
-Currently, two official plugins are available:
+with React and Javascript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Details
 
-## React Compiler
+This is a memory card game where you must match a card to their respective matching card. There are 8 pairs in this 4x4 grid.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Press the 'New Game' button to restart and shuffle the cards.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
-
-
-
-npx create-vite@latest
+You will be presented with a 'Congratulations' screen when you complete all the matches. You must restart the game to play again.
